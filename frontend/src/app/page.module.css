@@ -3,5 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
+  border-left: 1px solid var(--color-red-light);
+  border-right: 1px solid var(--color-red-light);
 }
