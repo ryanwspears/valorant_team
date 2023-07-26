@@ -1,0 +1,30 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   flex-direction: column;
+   overflow-x: hidden;
+   background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+   margin: 0;
+}
+
+h1 {
+   font-family: 'Val-Font';
+   color: #FFFBF5;
+   font-size: 6rem;
+}
+
+h2 {
+   font-family: 'Val-Font';
+   color: #FFFBF5;
+   font-size: 3rem;
+}
+
+@font-face {
+   font-family: 'Val-Font';
+   src: url('/Valorant Font.ttf');
+}
