@@ -1,0 +1,15 @@
+.team_name {
+    display: flex;
+    justify-content: center;
+}
+
+.name_cards {
+    background-color: --color-red-dark;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Mori {
+    
+}
