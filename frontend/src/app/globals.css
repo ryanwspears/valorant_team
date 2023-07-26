@@ -28,11 +28,27 @@ h1 {
 
 h2 {
    font-family: 'Val-Font';
-   color: #FFFBF5;
+   color: var(--color-white);
    font-size: 3rem;
+}
+
+h3 {
+   font-family: 'Val-Font';
+   font-size: 2rem;
+   color: var(--color-white);
+}
+
+p, span {
+   color: var(--color-white);
+   font-family: 'Arial'
 }
 
 @font-face {
    font-family: 'Val-Font';
    src: url('/Valorant Font.ttf');
+}
+
+@font-face {
+   font-family: 'Tungsten-Bold';
+   src: url('/Tungsten-Bold.ttf');
 }
