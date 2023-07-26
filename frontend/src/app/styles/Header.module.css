@@ -1,0 +1,26 @@
+.main {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   padding: 1rem;
+   border-bottom: 1px solid var(--color-red-light);
+}
+
+.main img {
+   cursor: pointer;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 15%;
+}
+
+.nav a {
+   text-decoration: none;
+   color: var(--color-red-light);
+   font-family: 'Val-Font';
+   cursor: pointer;
+}
