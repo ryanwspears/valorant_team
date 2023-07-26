@@ -1,0 +1,33 @@
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   flex-direction: column;
+   padding: 1rem;
+}
+
+.top, .bottom {
+   animation: fadeIn 3s;
+   text-align: center;
+}
+
+.top, .bottom {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.bottom p {
+   background-color: var(--color-red-light);
+   padding: 1rem;
+   cursor: pointer;
+   font-family: 'Val-Font';
+   margin: 1rem;
+}
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
