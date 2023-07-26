@@ -1,0 +1,10 @@
+.container form {
+  background-color: var(--color-red-dark);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.h2_name {
+  text-align: center;
+}
