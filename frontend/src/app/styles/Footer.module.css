@@ -1,0 +1,87 @@
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   padding: 1rem;
+   border-top: 1px solid var(--color-red-light);
+}
+
+.main h3 {
+   margin-bottom: 0.5rem;
+}
+
+.top {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   flex-direction: column;
+   margin-bottom: 2rem;
+}
+
+.news {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.news input, .news button {
+   padding: 0.5rem;
+   outline: none;
+   border: none;
+   font-size: 1.2rem;
+}
+
+.news input {
+   width: 20%;
+   max-height: 1rem;
+   min-height: 1rem;
+}
+
+.news button {
+   font-family: 'Val-Font';
+   cursor: pointer;
+   background-color: var(--color-red-light);
+   max-height: 2rem;
+   min-height: 2rem;
+}
+
+.mid {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   width: 100%;
+   border-top: 1px solid var(--color-red-light);
+   padding: 1rem;
+}
+
+.col {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 20%;
+   flex-direction: column;
+   text-align: center;
+}
+
+.col span {
+   margin-bottom: 1rem;
+   cursor: pointer;
+   font-size: 1.2rem;
+}
+
+.col:nth-of-type(4) img {
+   margin: 1rem;
+   cursor: pointer;
+}
+
+.bottom {
+   margin-top: 2rem;
+}
+
+.address {
+   margin-bottom: 2rem;
+}
