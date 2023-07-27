@@ -44,7 +44,8 @@
 .news button {
    font-family: 'Val-Font';
    cursor: pointer;
-   background-color: var(--color-red-light);
+   background-color: var(--color-red-dark);
+   color: var(--color-white);
    max-height: 2rem;
    min-height: 2rem;
 }
@@ -84,4 +85,14 @@
 
 .address {
    margin-bottom: 2rem;
+}
+
+.slashes {
+   color: var(--color-red-light);
+   font-family: 'Val-Font';
+   font-size: 2rem;
+}
+
+.slashes:last-of-type {
+   font-size: unset;
 }

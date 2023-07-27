@@ -4,7 +4,9 @@ import styles from '../styles/Upcoming.module.css'
 export default function Upcoming() {
   return (
 		<main className={styles.main}>
-			<h2>uPCOMING // MATCHES</h2>
+			<h3>
+				uPCOMING <span className={styles.slashes}>//</span> MATCHES
+			</h3>
 			<div className={styles.matches}>
 				<div className={styles.match}>
 					<span>AUG 5</span>

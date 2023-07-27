@@ -43,3 +43,8 @@
    font-family: 'Tungsten-Bold';
    font-size: 2rem;
 }
+
+.slashes {
+   color: var(--color-red-light);
+   font-family: 'Val-Font';
+}
