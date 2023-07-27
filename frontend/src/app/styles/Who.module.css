@@ -1,0 +1,37 @@
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   flex-direction: column;
+   margin-top: 3rem;
+   margin-bottom: 3rem;
+}
+
+.main p {
+   font-size: 1.5rem;
+   text-align: center;
+   width: 60%;
+}
+
+.slashes {
+   color: var(--color-red-light);
+   font-family: 'Val-Font';
+}
+
+.images {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.image {
+   width: 30%;
+   height: 20rem;
+   position: relative;
+   object-fit: cover;
+   margin: 1rem;
+   border: 1px solid var(--color-red-light);
+}

@@ -24,14 +24,14 @@ export default function Hero() {
 				<>
 					<div className={styles.top}>
 						<div>
-							<h1>#1 // rANKED</h1>
-							<h1>tEAM // iN</h1>
-							<h1>tHE // U.S.</h1>
+							<h1>#1 <span className={styles.slashes}>//</span> rANKED</h1>
+							<h1>tEAM <span className={styles.slashes}>//</span> iN</h1>
+							<h1>tHE <span className={styles.slashes}>//</span> U.S.</h1>
 						</div>
 						<Image alt='img' src={'/home_img.png'} width={500} height={500} />
 					</div>
 					<div className={styles.bottom}>
-						<p>mEET // oUR // tEAM</p>
+						<p>mEET <span className={styles.slashes}>//</span> oUR <span className={styles.slashes}>//</span> tEAM</p>
 					</div>
 				</>
 			)}
@@ -39,14 +39,14 @@ export default function Hero() {
 				<>
 					<div className={styles.top}>
 						<div>
-							<h1>aLL // oF // oUR</h1>
-							<h1>cOACHES // aRE</h1>
+							<h1>aLL <span className={styles.slashes}>//</span> oF <span className={styles.slashes}>//</span> oUR</h1>
+							<h1>cOACHES <span className={styles.slashes}>//</span> aRE</h1>
 							<h1>rADIANT</h1>
 						</div>
 						<Image alt='img' src={'/Radiant_Rank.png'} width={500} height={500} />
 					</div>
 					<div className={styles.bottom}>
-						<p>mEET // oUR // cOACHES</p>
+						<p>mEET <span className={styles.slashes}>//</span> oUR <span className={styles.slashes}>//</span> cOACHES</p>
 					</div>
 				</>
 			)}
@@ -54,14 +54,14 @@ export default function Hero() {
 				<>
 					<div className={styles.top}>
 						<div>
-							<h1>rANKED // 1sT</h1>
-							<h1>iN // tHREE</h1>
+							<h1>rANKED <span className={styles.slashes}>//</span> 1sT</h1>
+							<h1>iN <span className={styles.slashes}>//</span> tHREE</h1>
 							<h1>tOURNAMENTS</h1>
 						</div>
 						<Image alt='img' src={'/tournament.png'} width={500} height={500} />
 					</div>
 					<div className={styles.bottom}>
-						<p>vIEW // oUR // hISTORY</p>
+						<p>vIEW <span className={styles.slashes}>//</span> oUR <span className={styles.slashes}>//</span> hISTORY</p>
 					</div>
 				</>
 			)}
