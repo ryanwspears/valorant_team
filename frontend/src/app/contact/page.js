@@ -7,8 +7,8 @@ import Form from "../components/Contact_Form";
 export default function page() {
   return (
     <div className={FormStyles.main}>
-      <Form />
       <Info />
+      <Form />
     </div>
   );
 }

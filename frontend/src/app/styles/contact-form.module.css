@@ -1,10 +1,37 @@
-.container form {
+.form_container {
   background-color: var(--color-red-dark);
+  font-family: "Val-Font";
+  color: var(--color-white);
   display: flex;
   flex-direction: column;
-
+  border-radius: 25px;
+  padding: 1rem;
 }
 
 .h2_name {
   text-align: center;
+}
+
+
+.name_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+ 
+}
+
+.contact div:nth-of-type(1) {
+  display: flex;
+  width: 60%;
+}
+
+.contact div:nth-of-type(2) {
+  display: flex;
 }
